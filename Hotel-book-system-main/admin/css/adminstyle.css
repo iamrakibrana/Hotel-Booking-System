@@ -1,0 +1,50 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+body {
+  background-color: rgba(227, 223, 230, 0.589);
+}
+
+/*---- Hide number arrows: ------*/
+
+/* For chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 600px) {
+  .roomAvailable {
+    margin-top: 20px;
+    padding: 0 2rem;
+  }
+}
+
+#dashboard-menu{
+  position: fixed;
+  height: 100vh;
+}
+@media screen and (max-width: 991px){
+  #dashboard-menu{
+    height: auto;
+    width: 100vw;
+  }
+  #main-content{
+    margin-top: 60px;
+  }
+}
